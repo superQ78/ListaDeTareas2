@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lista de Tareas</title>
+    <title>Lista de Películas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="formulario">
-        <h2>Agregar Tarea</h2>
-        <label for="descripcion">Descripción:</label>
-        <input type="text" id="descripcion"><br>
-        <button id="agregar">Agregar</button>
+        <h2>Agregar Película</h2>
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo"><br>
+        <label for="genero">Género:</label>
+        <input type="text" id="genero"><br>
+        <label for="duracion">Duración:</label>
+        <input type="text" id="duracion" placeholder="Ej formato: 2h 15m"><br>
+        <button id="agregar">Agregar Película</button>
     </div>
     <div id="tabla-contenedor">
-        <h2>Tareas</h2>
+        <h2>Películas</h2>
         <table id="tabla">
             <thead>
                 <tr>
-                    <th>Descripción</th>
+                    <th>Título</th>
+                    <th>Género</th>
+                    <th>Duración</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
